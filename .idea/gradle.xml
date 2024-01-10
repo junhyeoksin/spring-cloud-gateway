@@ -15,7 +15,7 @@
         <option name="externalProjectPath" value="$PROJECT_DIR$/first-service" />
         <option name="modules">
           <set>
-            <option value="$PROJECT_DIR$/first-service" />
+            <option value="$PROJECT_DIR$/First-Service" />
           </set>
         </option>
       </GradleProjectSettings>
@@ -31,7 +31,7 @@
         <option name="externalProjectPath" value="$PROJECT_DIR$/second-service" />
         <option name="modules">
           <set>
-            <option value="$PROJECT_DIR$/second-service" />
+            <option value="$PROJECT_DIR$/Second-Service" />
           </set>
         </option>
       </GradleProjectSettings>

@@ -1,6 +1,6 @@
 
 # Spring-Cloud-Gateway with Spring Boot 3
-project ; spring-cloud-gateway
+project : spring-cloud-gateway
 
 This is a project related to the Discovery Service in a Cloud Native architecture, implemented as part of studying Microservices Architecture (MSA).
 

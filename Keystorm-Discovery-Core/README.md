@@ -8,9 +8,11 @@ Filter 사용 방법
 1. Property (yml file) 
 2. Java Code (FilterConfig)
 3. Java COde (Custom Filter)
+4. Java Code (Global Filter)
+5. Java Code (Logging Filter)
 
-
-
+순사: Gateway Client -> Gateway Handler -> Global Filter -> Custom Filter -> Logging Filter -> Proxied Service  
+우선순위 정의에 따라 변경되기도 함 ( 가장 높음 : HIGHEST_PRECEDENCE ) 
 
 
 * Keystorm-Discovery

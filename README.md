@@ -1,6 +1,6 @@
 
 # Spring-Cloud-Gateway with Spring Boot 3
-project : spring-cloud-gateway
+project : keystorm-Discovery,  keystorm-Discovery-Core
 
 This is a project related to the Discovery Service in a Cloud Native architecture, implemented as part of studying Microservices Architecture (MSA).
 
@@ -39,6 +39,19 @@ IP Whitelisting:
 Adds IPs to the allowed list.
 This project was developed as a practical exploration of various aspects of an API Gateway Service within a Cloud Native architecture.
 
+Api GateWay Service
+- 사용자가 설정한 라우팅 설정에 따라서 각각 앤드포인트로  클라이언트 대신해서 요청하고  응답을 받으면 클라이언트에 전달해주는 프록시 역활
+- 시스템 내부 구조를 숨기고 외부 요청을 적절한 형태로 응답
+
+1. 인증 및 권한 부여
+2. 서비스 검색 통합
+3. 응답 캐싱
+4. 정책, 회로 차단기 및 Qos 다시 시도
+5. 속도 제한
+6. 부하 분산
+7. 로깅, 추적, 상관 관계
+8. 헤더, 쿼리 문자열 및 청구 권한
+9. Ip 허용 목록에 추가
 
 
  
